@@ -1,12 +1,13 @@
 package org.sanmarcux.samples.sakila.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import org.cg.Enitity.Rating;
+import org.cg.dto.FilmDTO;
+import org.cg.dto.LanguageDTO;
+import org.cg.sakila.SakilaApplication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.sanmarcux.samples.sakila.SakilaApplication;
-import org.sanmarcux.samples.sakila.dao.model.Rating;
-import org.sanmarcux.samples.sakila.dto.FilmDTO;
-import org.sanmarcux.samples.sakila.dto.LanguageDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
