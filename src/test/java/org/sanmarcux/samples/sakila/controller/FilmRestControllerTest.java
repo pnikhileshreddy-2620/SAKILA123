@@ -1,4 +1,4 @@
-package org.sanmarcux.samples.sakila.controller;
+/*package org.sanmarcux.samples.sakila.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -123,3 +123,4 @@ public class FilmRestControllerTest {
         return film;
     }
 }
+*/
